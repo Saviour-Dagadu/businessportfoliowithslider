@@ -1,0 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#contact{
+  background: #efefef;
+  color: #777;
+}
+
+h1{
+  text-align: center;
+}
+
+h1::after{
+  content: "";
+  width: 120px;
+  height: 3px;
+  margin: 20px auto 5px;
+  background: #077bff;
+  display: block;
+}
+
+.contact-form{
+  padding: 15px;
+  float: left;
+  background: #efefef;
+  width: 50%;
+}
+
+button{
+  padding: 5px;
+  background: blue;
+  font-weight: bold;
+}
+
+button:hover{
+  background: lightblue;
+  border-radius: 3px solid black;
+}
+
+.follow{
+  background: #fff;
+  padding: 15px;
+  margin: 15px;
+}
+
+.address .fa{
+  margin: 10px;
+  color: #007bff;
+  font-weight:
+}
+
+.address{
+  float: left;
+  background: #efefef;
+  width: 50%;
+}
